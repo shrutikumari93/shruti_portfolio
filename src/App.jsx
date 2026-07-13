@@ -12,7 +12,7 @@ function App() {
     <>
       <Sidebar />
 
-      <main className="lg:ml-72">
+      <main className="lg:ml-64">
         <Home />
         <About />
         <Resume />
