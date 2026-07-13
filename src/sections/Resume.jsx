@@ -45,7 +45,7 @@ function Resume() {
               </p>
 
               <p className="mt-3 leading-7 text-gray-600 dark:text-gray-300">
-                Pursuing B.Tech in Computer Science Engineering with a strong
+                Pursuing B.Tech in Computer Science with a strong
                 foundation in software development, databases, web technologies
                 and problem-solving.
               </p>
