@@ -10,16 +10,16 @@ import {
 function About() {
   return (
     <section
-      id="about"
-      className="min-h-screen bg-white py-20 px-6 lg:px-16"
-    >
+  id="about"
+  className="min-h-screen bg-white px-6 py-20 text-gray-900 transition-colors duration-300 dark:bg-slate-950 dark:text-white lg:px-16"
+>
       <div className="mx-auto max-w-7xl">
         {/* Section Heading */}
         <h2 className="text-4xl font-bold text-primary">About Me</h2>
 
         <div className="mt-3 h-1 w-24 rounded-full bg-primary"></div>
 
-        <p className="mt-6 max-w-4xl leading-8 text-gray-600">
+        <p className="mt-6 max-w-4xl leading-8 text-gray-600 dark:text-gray-300">
           I'm a final-year B.Tech student majoring in Computer Science at IMS
           Engineering College, Ghaziabad. Passionate about software development
           and modern web technologies, I enjoy building responsive,
@@ -40,11 +40,11 @@ function About() {
 
           {/* Right Content */}
           <div>
-            <h3 className="text-3xl font-bold text-gray-800">
+            <h3 className="text-3xl font-bold text-gray-800 dark:text-white">
             Full Stack Web Developer
             </h3>
 
-            <p className="mt-4 italic leading-8 text-gray-600">
+            <p className="mt-4 italic leading-8 text-gray-600 dark:text-gray-300">
               I am passionate about building scalable web applications and
               continuously exploring modern technologies. I believe in writing
               clean, maintainable code and creating solutions that provide
@@ -97,7 +97,7 @@ function About() {
             </div>
 
             {/* Bottom Description */}
-            <p className="mt-8 leading-8 text-gray-600">
+            <p className="mt-8 leading-8 text-gray-600  dark:text-gray-300">
               My experience includes developing full-stack web applications
               using the MERN stack, integrating REST APIs, and designing
               responsive interfaces with React and Tailwind CSS. I am actively
